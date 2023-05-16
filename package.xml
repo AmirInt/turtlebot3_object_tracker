@@ -58,6 +58,11 @@
   <exec_depend>geometry_msgs</exec_depend>
   <exec_depend>rospy</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
+  
+  <!-- External dependencies -->
+  <exec_depend>numpy</exec_depend>
+  <exec_depend>ultralytics</exec_depend>
+  <exec_depend>opencv-python</exec_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->
