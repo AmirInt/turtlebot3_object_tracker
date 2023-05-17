@@ -36,7 +36,7 @@ class ImageProcessor:
         cv2.resizeWindow("robot_view", *self.cv2_frame_size)
 
         # TODO: Setup your "human detection" service
-        self.human_detection_service = None
+        self.human_detection_server = None
 
         self.update_view()
 
