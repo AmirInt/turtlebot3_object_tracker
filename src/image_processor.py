@@ -25,14 +25,18 @@ class ImageProcessor:
 
         # TODO: Subscribe on your robot's camera topic
         # NOTE: Make sure you use the provided listener for this subscription
+        self.camera_subscriber = None
 
         # TODO: Instantiate your YOLO object detector/classifier model
+        self.model = None
+        self.results = None
 
         self.cv2_frame_size = 400, 320
         cv2.namedWindow("robot_view", cv2.WINDOW_NORMAL)
         cv2.resizeWindow("robot_view", *self.cv2_frame_size)
 
         # TODO: Setup your "human detection" service
+        self.human_detection_service = None
 
         self.update_view()
 
@@ -53,7 +57,7 @@ class ImageProcessor:
 
                 frame = copy.deepcopy(self.image_np)
 
-                # TODO: You can use an "Annotator" to draw object bounding boxes on your output image
+                # TODO: You can use an "Annotator" to draw object bounding boxes on frame
 
                 cv2.imshow("robot_view", cv2.cvtColor(frame, cv2.COLOR_RGB2BGR))
                 cv2.waitKey(1)
