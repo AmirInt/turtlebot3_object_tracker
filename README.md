@@ -36,4 +36,4 @@ Feel free to test your system in any of the world files provided by **turtlebot3
 ## Expected Output
 The robot must be able to detect the target when viewed and start following it. When the target is not in sight, you can assign any desired behaviour to your robot.
 
-<div style="text-alignt:center"><img src="./assets/ezgif-1-80f7319f72.gif" alt="Robot View"/></div>
+![Robot View](./assets/ezgif-1-80f7319f72.gif)
