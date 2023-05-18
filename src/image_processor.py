@@ -28,8 +28,9 @@ class ImageProcessor:
         self.camera_subscriber = None
 
         # TODO: Instantiate your YOLO object detector/classifier model
-        self.model = None
-        self.results = None
+        self.model: YOLO = None
+        # TODO: You need to update results each time you call your model
+        self.results: Results = None
 
         self.cv2_frame_size = 400, 320
         cv2.namedWindow("robot_view", cv2.WINDOW_NORMAL)
