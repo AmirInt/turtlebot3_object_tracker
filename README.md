@@ -9,6 +9,9 @@ This package attempts to implement a simple object tracking robot. We make use o
 - [ultralytics](https://docs.ultralytics.com/)
 - [opencv-python](https://opencv.org/)
 
+## Target
+You control the target using keyboard. Note that the target itself (that weird stiff faceless bipedal Slender Man) is a **turtlebot3_burger** and you can controll it via the **turtlebot3_teleop** package.
+
 ## Components
 1. ### The Image Processor Node
 This node is responsible for receiving robot's camera view, perform detections and return the requested target's position in the image along with the image resolution.
