@@ -10,7 +10,7 @@ This package attempts to implement a simple object tracking robot. We make use o
 - [opencv-python](https://opencv.org/)
 
 ## Target
-You control the target using keyboard. Note that the target itself (that weird stiff faceless bipedal Slender Man) is a **turtlebot3_burger** and you can controll it via the **turtlebot3_teleop** package.
+You control the target using keyboard. Note that the target itself (that weird stiff faceless bipedal Slender Man) is a **turtlebot3_burger** and you can control it via the **turtlebot3_teleop** package.
 
 ## Components
 1. ### The Image Processor Node
