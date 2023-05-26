@@ -7,7 +7,7 @@ This package attempts to implement a simple object tracking robot. We make use o
 - [turtlebot3](https://github.com/ROBOTIS-GIT/turtlebot3), [turtlebot3_msgs](https://github.com/ROBOTIS-GIT/turtlebot3_msgs) and [turtlebot3_simulations](https://github.com/ROBOTIS-GIT/turtlebot3_simulations)
 - [numpy](https://numpy.org/)
 - [ultralytics](https://docs.ultralytics.com/)
-- [opencv-python](https://opencv.org/)
+- [opencv-python](https://pypi.org/project/opencv-python/)
 
 ## Target
 You control the target using keyboard. Note that the target itself (that weird stiff faceless bipedal Slender Man) is a **turtlebot3_burger** and you can control it via the **turtlebot3_teleop** package.
