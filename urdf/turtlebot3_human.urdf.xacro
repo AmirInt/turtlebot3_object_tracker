@@ -15,7 +15,7 @@
     <visual>
       <origin xyz="-.032 0 0.0" rpy="0 0 1.57"/>
       <geometry>
-        <mesh filename="package://converter/meshes/Human.001.stl" scale="0.2 0.2 0.2"/>
+        <mesh filename="package://turtlebot3_object_tracker/meshes/Human.001.stl" scale="0.2 0.2 0.2"/>
       </geometry>
     </visual>
 
