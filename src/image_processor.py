@@ -7,8 +7,8 @@ import copy
 import cv2
 import numpy as np
 from ultralytics import YOLO
-from ultralytics.yolo.utils.plotting import Annotator
-from ultralytics.yolo.engine.results import Results
+from ultralytics.utils.plotting import Annotator
+from ultralytics.engine.results import Results
 
 # ROS
 import rospy
